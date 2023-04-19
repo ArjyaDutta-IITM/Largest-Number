@@ -9,5 +9,5 @@ def app():
     if st.button("Find Largest"):
         st.write("The largest number is:", max(a,max(b,c)))
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app()
